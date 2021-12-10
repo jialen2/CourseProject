@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 	<title>CS410 Final Project</title>
 	<style>
-body {
-  background-image: url('10011637471668_.pic.jpg');
-}
+/* body {
+  background-image: url('includes/background.jpeg');
+} */
 h1 {font-family: "Sofia", sans-serif;}
 </style>
 </head>
@@ -54,7 +54,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<tr>";
         echo "<th><span>Title</span></th>";
         echo "<th><span>Genre</span></th>";
-        echo "<th><span>More Info</span></th>";
         echo "</tr>";
         echo "</thead>";
         echo "<tbody>";
