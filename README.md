@@ -29,7 +29,7 @@ After putting a group of input (e.g., 10, Comedy, 5), the user will get a result
 
 The project implements collaborative filtering using the programming language of python in Jupyter Notebook to achieve the goal of recommendation. The implementation of recommender could be divided into the following steps:
 
-**I.** Import the csv dataset of movie ratings from 610 users and transform it into a matrix that contains **9724 rows**, each representing a movie, and **610 columns**, each representing a user. Since each user will not rate every movie, most values in this matrix are presented as N/A. We calculated the **sparsity**, or the percentage of N/A values, of the matrix, being 98.32% and replaced N/A values with zero.
+**I.** Import the csv dataset of movie ratings from 610 users and transform it into a matrix that contains **9724 rows**, each representing a movie, and **610 columns**, each representing a user. Since each user will not rate every movie, most values in this matrix are presented as N/A. We calculated the **sparsity**, or the percentage of N/A values, of the matrix, being 98.30% and replaced N/A values with zero.
 
 ![pic4](https://github.com/jialen2/CourseProject/blob/main/ReadMe_Pictures/ReadMe_Pic4.png)
 
